@@ -1,0 +1,9 @@
+@import url(_vars.css);
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    margin: 0;
+}
