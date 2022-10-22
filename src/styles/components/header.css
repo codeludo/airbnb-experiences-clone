@@ -1,0 +1,25 @@
+@import url(../_vars.css);
+
+.header {
+	height: 70px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 0 2px var(--platinum);
+}
+
+.navbar figure {
+    display: flex;
+    align-items: center;
+	margin: 0;
+    margin: 30px 22px;
+}
+
+.navbar figure img {
+	object-fit: contain;
+	height: 26px;
+	width: 83px;
+	border-radius: 0px;
+}

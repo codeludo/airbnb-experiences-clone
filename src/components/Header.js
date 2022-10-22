@@ -1,9 +1,16 @@
 import React from "react";
 import "../styles/components/header.css";
+import airbnbLogo from "../assets/images/airbnb-logo.png";
 
 const Header = () => {
     return (
-        <h1>Hello world</h1>
+        <div className="header">
+            <nav className="navbar">
+                <figure>
+                <img src={airbnbLogo} alt="airbnb-logo" />
+                </figure>
+            </nav>
+        </div>
     )
 }
 

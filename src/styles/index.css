@@ -1,9 +1,12 @@
 @import url(_vars.css);
+
 *{
     box-sizing: border-box;
+    
 }
 
-body {
+html, body {
+    height: 100%;
     background-color: var(--white);
     margin: 0;
 }

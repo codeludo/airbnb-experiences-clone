@@ -1,0 +1,35 @@
+@import url(../_vars.css);
+
+.hero figure {
+	margin: 0;
+}
+
+.hero figure img {
+	object-fit: contain;
+	height: 332px;
+	width: 512px;
+	margin-left: 33px;
+	margin-top: 3px;
+	border-radius: 9px;
+}
+
+.title {
+	margin-left: 33px;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.title-description {
+    margin-left: 33px;
+    max-width: 320px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+    color: var(--raising-black);
+}
+
