@@ -1,0 +1,80 @@
+@import url(../_vars.css);
+
+.card-container {
+	display: flex;
+    flex-direction: column;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	height: 235px;
+	width: 176px;
+}
+
+.card-image {
+	position: absolute;
+	object-fit: cover;
+	border-radius: 9px;
+	height: 235px;
+	width: 176px;
+}
+
+.status {
+	margin: 6px;
+	width: 61px;
+	height: 20px;
+	background: var(--white);
+	color: var(--light-black);
+	text-align: center;
+	z-index: 2;
+	border-radius: 2px;
+}
+
+.card-info {
+	margin-top: 9px;
+    height: fit-content;
+}
+.score-info {
+	display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.score-info span {
+    color: var(--spanish-grey);
+}
+
+.score-info p {
+    margin: 0;
+}
+.score-info img {
+	height: 14px;
+	width: 14px;
+	border-radius: 0.5px;
+}
+
+.card-detail {
+    margin-bottom: 16px
+}
+
+.card-detail p {
+    margin: 8px 0;
+}
+
+.detail {
+font-size: 12px;
+font-weight: 300;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--light-black);
+}
+
+.cost {
+    color: var(--light-black);
+}
+
+.cost span {
+    font-weight: 300;
+}
+

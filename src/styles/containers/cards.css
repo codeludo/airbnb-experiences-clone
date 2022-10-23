@@ -1,0 +1,7 @@
+@import url(../_vars.css);
+
+.cards {
+    display: flex;
+    margin: 0 110px;
+    gap: 8px;
+}

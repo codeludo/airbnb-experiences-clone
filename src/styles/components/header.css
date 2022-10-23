@@ -7,7 +7,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    box-shadow: 3px 0 2px var(--platinum);
+    box-shadow: 3px 0 14px var(--platinum);
 }
 
 .navbar figure {
