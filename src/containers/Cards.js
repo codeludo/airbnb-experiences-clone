@@ -9,9 +9,7 @@ const Cards = () => {
 			{data.map((info) => {
 				return <Card 
 				key={info.id}
-				// al agregar las props como objeto, se llaman
-				// desde el componente Card con el nombre de la data que viene
-				info={info}
+				{...info}
 				/>
 				
 			})}
