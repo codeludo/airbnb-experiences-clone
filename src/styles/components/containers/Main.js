@@ -1,5 +1,5 @@
 import React from "react"
-import Hero from "../components/Hero"
+import Hero from "../../../components/Hero"
 import "../styles/containers/main.css"
 import Cards from "./Cards"
 
@@ -12,4 +12,3 @@ const Main = () => {
 	)
 }
 export default Main
-

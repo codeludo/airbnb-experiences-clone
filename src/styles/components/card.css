@@ -2,7 +2,7 @@
 
 .card-container {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 .card {
 	display: flex;
@@ -21,6 +21,7 @@
 
 .status {
 	margin: 6px;
+	padding-bottom: 4px;
 	width: 61px;
 	height: 20px;
 	background: var(--white);
@@ -28,53 +29,59 @@
 	text-align: center;
 	z-index: 2;
 	border-radius: 2px;
+	font-weight: 400;
+	font-size: 13px;
 }
 
 .card-info {
 	margin-top: 9px;
-    height: fit-content;
-}
-.score-info {
-	display: flex;
-    align-items: center;
-    gap: 8px;
+	height: fit-content;
 }
 
-.score-info span {
-    color: var(--spanish-grey);
+.score-info span:nth-child(3),
+.score-info span:nth-child(4) {
+	color: var(--spanish-grey);
+}
+
+
+.score-info {
+	display: flex;
+	align-items: center;
+	gap: 8px;
 }
 
 .score-info p {
-    margin: 0;
+	margin: 0;
 }
 .score-info img {
+	margin-bottom: 2px;
 	height: 14px;
 	width: 14px;
 	border-radius: 0.5px;
 }
 
+
 .card-detail {
-    margin-bottom: 16px
+	margin-bottom: 16px;
 }
 
 .card-detail p {
-    margin: 8px 0;
+	margin: 8px 0;
 }
+
 
 .detail {
-font-size: 12px;
-font-weight: 300;
-line-height: 13px;
-letter-spacing: 0em;
-text-align: left;
-color: var(--light-black);
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 13px;
+	letter-spacing: 0em;
+	text-align: left;
 }
 
+.cost span:nth-child(1){
+	font-weight: 600;
+}
 .cost {
-    color: var(--light-black);
+	color: var(--light-black);
+	font-weight: 300;
 }
-
-.cost span {
-    font-weight: 300;
-}
-

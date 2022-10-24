@@ -1,5 +1,9 @@
 @import url(../_vars.css);
 
+.hero {
+	margin: 16px 0;
+}
+
 .hero figure {
 	margin: 0;
 }
@@ -11,6 +15,10 @@
 	margin-left: 33px;
 	margin-top: 3px;
 	border-radius: 9px;
+}
+
+.hero-description {
+	margin: 16px;
 }
 
 .title {
