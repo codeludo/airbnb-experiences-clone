@@ -6,16 +6,13 @@ import data from "../utils/data"
 const Cards = () => {
 	return (
 		<div className="cards">
-			{data.map((item) => {
+			{data.map((info) => {
 				return <Card 
-				state={item.openSpots} 
-				score={item.stats.rating}
-				scoreCount={item.stats.reviewCount}
-				price={item.price}
-				location={item.location}
-				title={item.title}
-				key={item.id}
-				img={item.coverImg} />
+				key={info.id}
+				// al agregar las props como objeto, se llaman
+				// desde el componente Card con el nombre de la data que viene
+				info={info}
+				/>
 				
 			})}
 		</div>
